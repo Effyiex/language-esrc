@@ -4,4 +4,4 @@
 '.source.esrc':
   'editor':
     'softWrap': true
-    'commentStart': '//'
+    'commentStart': '(//|#)'
