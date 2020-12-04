@@ -1,0 +1,14 @@
+{
+  "name": "language-esrc",
+  "version": "0.0.1",
+  "description": "A Simple Package to implement Effyiex-Source",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/atom/language-esrc",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
