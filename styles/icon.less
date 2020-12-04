@@ -1,11 +1,15 @@
 
-.effyiex-icon {
-  content: ''
-}
-
 .tab,
-.tree-view:not(.nuclide-file-tree) {
-    [data-name$='.esrc']:before {
-      .java-icon;
-    }
+.fuzzy-finder .list-group,
+.tree-view .file {
+  [data-name$=".esrc"]:before {
+    background-size: contain;
+    background-position: center;
+    background-repeat:  no-repeat;
+    content: "";
+    font-size: 1.25em;
+    height: 1.5rem;
+    vertical-align: -4px;
+    background-image: url("atom://language-esrc/fileicon.png");
+  }
 }
