@@ -15,7 +15,7 @@
   }
   {
     'match': '\"[^\"]*\"'
-    'name' : 'keyword.string'
+    'name' : 'string'
   }
   {
     'match': '\\+|-|%|\\*|\\/|==|<=|>=|;|:|=|(?<!\\.)\\.{2}(?!\\.)'
@@ -30,7 +30,7 @@
     'name': 'constant.numeric.esrc'
   }
   {
-    'match': '(false|true|super)'
+    'match': '(false|true|super|sysout|sysin)'
     'name': 'constant.language.lua'
   }
 ]
