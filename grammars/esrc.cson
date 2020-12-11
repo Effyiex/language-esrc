@@ -22,7 +22,7 @@
     'name': 'keyword.operator.esrc'
   }
   {
-    'match': '\\b(extends|implements|class|interface|enum|var|const|static|and|or|not|break|do|else|for|if|return|while|for|function|import)\\b'
+    'match': '\\b(new|extends|implements|class|interface|enum|var|const|static|and|or|not|break|do|else|for|if|return|while|for|function|import)\\b'
     'name': 'keyword.control.esrc'
   }
   {
@@ -30,7 +30,7 @@
     'name': 'constant.numeric.esrc'
   }
   {
-    'match': '(false|true|super|sysout|sysin)'
-    'name': 'constant.language.lua'
+    'match': '(false|true|super|sysout|sysin|int|string|float|double|byte|char)'
+    'name': 'constant.language.esrc'
   }
 ]
